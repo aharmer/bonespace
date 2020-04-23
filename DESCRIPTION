@@ -1,11 +1,16 @@
 Package: bonespace
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Multiple-bone 3D Morphospace Using Hierarchical Principal Component Analysis
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: as.person(c(
+    "Daniel Thomas <d.b.thomas@massey.ac.nz> [aut, cre]",
+    "Aaron Harmer <a.harmer@massey.ac.nz> [aut, cre]"
+  ))
+Maintainer: Aaron Harmer <a.harmer@massey.ac.nz>
+Description: The 'bonespace' package provides a partial workflow for constructing a multiple-element morphospace with HPCA using both traditional landmarks and pseudolandmarks.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Imports:
+  Morpho,
+  geomorph
