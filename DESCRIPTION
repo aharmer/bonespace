@@ -4,7 +4,7 @@ Title: Multiple-bone 3D Morphospace Using Hierarchical Principal Component Analy
 Version: 0.1.0
 Authors@R: as.person(c(
     "Daniel Thomas <d.b.thomas@massey.ac.nz> [aut, cre]",
-    "Aaron Harmer <a.harmer@massey.ac.nz> [aut, cre]"
+    "Aaron Harmer <a.harmer@massey.ac.nz> [aut]"
   ))
 Maintainer: Aaron Harmer <a.harmer@massey.ac.nz>
 Description: The 'bonespace' package provides a partial workflow for constructing a multiple-element morphospace with HPCA using both traditional landmarks and pseudolandmarks.
@@ -14,3 +14,4 @@ LazyData: true
 Imports:
   Morpho,
   geomorph
+RoxygenNote: 7.0.0
