@@ -12,9 +12,9 @@ remesh = function(mesh, scale) {
 }
 
 
-a = remesh(hum, 0.01)
-meshInfo(a)
-open3d() + wire3d(a, color = "lightblue")
+hum.rem = remesh(hum, 0.1)
+meshInfo(hum.rem)
+open3d() + shade3d(hum.rem, color = "lightblue")
 
 
 vcgObjWrite(hum, "~/Downloads/humerus.obj")
