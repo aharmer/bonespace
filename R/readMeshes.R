@@ -1,7 +1,7 @@
 #' Read mesh or landmark files
 #'
 #' This function reads a set of either mesh files (obj, ply, stl) or landmark files (pts).
-#' @param dir a directory containing the fiels to be read.
+#' @param dir a directory containing the fields to be read.
 #' @param type the type of files to be read, either mesh files in *obj*, *ply* or *stl* format, or landmark files in *pts* format.
 #' @return A list containing the imported files.
 #' @importFrom Rvcg Morpho
